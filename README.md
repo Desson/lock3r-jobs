@@ -1,15 +1,22 @@
-## Relay3r Jobs
+## Lock3r Jobs
 
-This repo contains everything you need to run be a Relayer.
+This repo contains everything you need to run be a Locker.
 
 ## Available Jobs
 
+### [Locker](https://lock3r.network)
+
+- Lock3rCoreFlashArbitrage [Buggy]
+- LK3RsExecutingOnUnitrade
+- Lock3rOracle
+- MMStrategyLocker
+
 ### [Relayer](https://relay3r.network)
 
-- CoreFlashArbRelayer
+- CoreFlashArbRelayer [Buggy]
 - GetBackETHRelayer
 - UnitradeRelayer
-- BACFarmerRelayer
+- BACFarmerRelayer [Inactive]
 - RelayerV1Oracle
 
 ### [Keep3r](https://keep3r.network/)
@@ -19,6 +26,7 @@ This repo contains everything you need to run be a Relayer.
 - HegicPoolKeeper
 - Keep3rV1Oracle
 - YearnV1Keeper
+- YearnGenericKeep3rV2
 - MMStrategyKeeperV1
 
 ## Getting started
@@ -28,16 +36,18 @@ This repo contains everything you need to run be a Relayer.
 You will need to have Docker and Docker-Compose installed. Refer to [the Docker installation guide](https://docs.docker.com/engine/install/).
 If you are running the relayer on a Linux server, you will have to install docker-compose separately. Refer to [docker-compose installation guide](https://docs.docker.com/engine/install/)
 
-#### Steps to launch your relayer
+#### Steps to launch your locker
 
 - Rename the file env.example to .env
 
 Default .env:
+
 ```
 MNEMONIC=
 INFURA_PROJECT_ID=
-JOBS=RelayerV1Oracle,UnitradeRelayer
+JOBS=Lock3rOracle,LK3RsExecutingOnUnitrade
 ```
+
 - If you want to use an existing wallet set your MNEMONIC in the .env
 - Get an Infura Project Id from [Infura](https://infura.io/dashboard) and set it to INFURA_PROJECT_ID key
 - Set the jobs you want to work on in the .env, concat the names with comma. Refer to the "Available Jobs" section for the names.
