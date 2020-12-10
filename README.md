@@ -9,7 +9,7 @@ This repo contains everything you need to run be a Locker.
 - Lock3rCoreFlashArbitrage [Buggy]
 - LK3RsExecutingOnUnitrade
 - Lock3rOracle
-- MMStrategyLocker
+- MMStrategyLocker [12/12/2020]
 
 ### [Relayer](https://relay3r.network)
 
