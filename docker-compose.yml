@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  locker:
+    build: .
+    restart: "no"
+    volumes:
+      - "./.env:/locker/.env"
+      - "./wallets/:/locker/wallets/"
