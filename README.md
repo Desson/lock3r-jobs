@@ -36,7 +36,7 @@ This repo contains everything you need to run in order to be a Keeper, Relayer a
 You will need to have Docker and Docker-Compose installed. Refer to [the Docker installation guide](https://docs.docker.com/engine/install/).
 If you are running the relayer on a Linux server, you will have to install docker-compose separately. Refer to [docker-compose installation guide](https://docs.docker.com/engine/install/)
 
-#### Steps to launch your locker
+#### Steps to launch your Keeper/Relayer/locker
 
 - Rename the file env.example to .env
 
