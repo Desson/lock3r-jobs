@@ -1,15 +1,15 @@
-## Lock3r Jobs
+## Keep3r/Relayer/Lock3r Jobs
 
-This repo contains everything you need to run be a Locker.
+This repo contains everything you need to run in order to be a Keeper, Relayer and Locker.
 
 ## Available Jobs
 
 ### [Locker](https://lock3r.network)
 
-- Lock3rCoreFlashArbitrage [Buggy]
+- Lock3rCoreFlashArbitrage 
 - LK3RsExecutingOnUnitrade
 - Lock3rOracle
-- MMStrategyLocker [12/12/2020]
+
 
 ### [Relayer](https://relay3r.network)
 
